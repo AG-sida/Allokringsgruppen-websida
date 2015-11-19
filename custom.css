@@ -1,0 +1,111 @@
+body {
+    background-color: #ffffff;
+    color:black;
+}
+h1 {font-family: "Georgia", "TAHOMA", serif; font-size: 45px;}
+h2 {font-family: "Georgia", "TAHOMA", serif; font-size: 33px;}
+p {font-family: "Georgia", "TAHOMA", serif; font-size: 19px;}
+
+
+#menu-right{
+    position:fixed;
+    overflow: hidden;
+    height: 100%;
+    width:inherit;
+    color: #ffffff;
+    background:transparent;
+    padding:1px;
+    top: 1px;
+    right: 1px;
+    background: linear-gradient(rgb(5, 3, 70), #050346);
+}
+
+#menu-right a{
+    color: #ffffff;
+
+    align-items: center;
+    align-content:center;
+    padding-top: 10px;
+    padding-right: 90px;
+}
+#menu-right-tab{
+    color:red;
+}
+#menu-right a:hover, #menu-right a:focus {
+    position: static;
+
+    color: #ffffff;  /*Sets the text hover color on navbar*/
+    font-family: inherit;
+    font-size: 18px; /*adjusts the nav bar font when hover or click*/
+
+}
+
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+
+    background-color: transparent !important;
+    border: medium none;
+
+}
+
+
+.nav-tabs > li > a,
+.nav-tabs > li > a:focus,
+.nav-tabs > li> a:hover{
+
+    background-color: transparent !important;
+    border: medium none;
+
+
+}
+
+.nav .nav-tabs{
+
+    background: linear-gradient(rgb(73, 55, 58), #612236);
+}
+
+.nav .nav-tabs>li{
+
+    background: linear-gradient(rgb(73, 55, 58), #612236);
+}
+
+.tab-content{
+    background-color:#303136;
+    color: #0c09f2;
+    padding:5px
+}
+.nav-tabs > li > a{
+    border: medium none;
+}
+.nav-tabs > li > a:hover{
+    background-color:black;
+    border: medium none;
+    border-radius: 0;
+    color:#fff;
+}
+.box-sizing{
+    color:red;
+}
+
+#what{
+    background-color:black;
+    color:white;
+}
+#red{
+    background-color: red;,
+}
+#green{
+    background-color: darkgreen;
+}
+/* image slider */
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    position: inherit;
+    width: 85%;
+    max-height: 280px;
+    margin-top: 1px;
+
+}

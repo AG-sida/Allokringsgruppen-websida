@@ -1,0 +1,58 @@
+<!-- contact.html -->
+
+<div class="container">
+
+    <div class="col-md-2">
+      <!--  <br><br><br>
+        <h3></h3>
+        <p style="text-align:center">{{ message }}</p>-->
+
+    </div>
+
+
+
+    <div class="col-md-8">
+
+        <h3></h3>
+        <table cellpadding="1" cellspacing="1" border="3">
+            <tr>
+                <th>Name
+                    <br>
+                    <label>
+                        <input type="text" ng-model="search.Name">
+                    </label>
+                </th>
+                <th>
+                    City
+                    <br>
+                    <label>
+                        <input type="text" ng-model="search.City">
+                    </label>
+                </th>
+                <th>
+                    Country
+                    <br>
+                    <label>
+                        <input type="text" ng-model="search.Country">
+                    </label>
+                </th>
+            <tr ng-repeat="item in names | filter:search">
+                <td>{{item.Name}}</td>
+                <td>{{item.City}}</td>
+                <td>{{item.Country}}</td>
+
+            </tr>
+
+        </table>
+        </div>
+
+
+        <div class="col-md-2">
+
+
+        </div>
+
+
+
+
+</div>
